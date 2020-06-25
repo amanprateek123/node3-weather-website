@@ -54,7 +54,7 @@ app.get('/weather',(req,res)=>{
              }
              else{
                  res.send({
-                     Weather:'There is '+forecastData.weather[0].description+' today with ' + forecastData.clouds.all + '% clouds and the temperature in the region is '+ forecastData.main.temp +' degree celsius.',
+                     Weather:'There is '+forecastData.weather[0].description+' today with ' + forecastData.clouds.all + '% clouds and the temperature in the region is '+ forecastData.main.temp +' degree celsius. The maximum temperature is '+forecastData.main.temp_max + ' degree celsius and the minimum temperature is '+ forecastData.main.temp_min +' degree celsius.',
                      Location:forecastData.name,
                      Country:forecastData.sys.country
                  })
