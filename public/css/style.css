@@ -1,0 +1,76 @@
+body{
+    background-color: #f3f3f3;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #333333;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main_content{
+    flex-grow: 1;
+    margin-top: 5%;
+}
+
+footer{
+color:#888888;
+border-top: 1px solid #eeeeee;
+margin-top: 16px;
+padding: 16px 0;
+font-size: 18px;
+}
+
+header{
+    margin-top: 16px;
+    margin-bottom: 45px;
+}
+
+h1{
+    font-size: 60px;
+    margin-bottom: 16px;
+}
+h1:hover{
+    color: grey;
+    cursor: pointer;
+}
+
+header a{
+    color: #888888;
+    text-decoration: none;
+    margin-right: 16px;
+    font-size: 20px;
+}
+header a:hover{
+    color: black;
+}
+.portrait{
+    width: 45%;
+}
+form{
+    margin-bottom: 10%;
+}
+
+form input{
+    padding: 10px;
+    width: 300px;
+}
+form button{
+    width: 100px;
+    padding: 10px;
+}
+.text1{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+#msg-1{
+    font-size: 20px;
+    color:blue;
+}
+#msg-2{
+    font-size: 20px;
+    color: red;
+}
